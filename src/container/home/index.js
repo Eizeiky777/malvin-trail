@@ -59,13 +59,13 @@ const Home = () => {
                         </div>
                     </Col>
                     <Col>
-                        <div style={{marginTop: '-90px', marginBottom: 90, display: 'flex', alignItems: 'center'}}>
+                        <div style={{marginTop: '-90px', marginBottom: 90, display: 'flex', alignItems: 'center', paddingRight: 20}}>
                             <Image src={MalvinData[0].image} rounded width='250' style={{border: '10px solid white', marginRight: 10}} />
                             <div style={{ width: 250, display: 'flex', flexWrap: 'wrap'}}>
-                                <Image src={MalvinData[1].image} rounded width='120' height='120' style={{border: '5px solid white', marginRight: 5}} />
-                                <Image src={MalvinData[2].image} rounded width='120' height='120'  style={{border: '5px solid white', marginRight: 5}} />
-                                <Image src={MalvinData[3].image} rounded width='120' height='120'  style={{border: '5px solid white', marginRight: 5}} />
-                                <Image src={MalvinData[4].image} rounded width='120' height='120'  style={{border: '5px solid white', marginRight: 5}} />
+                                <Image src={MalvinData[1].image} rounded width='70' height='70' style={{border: '5px solid white', marginRight: 5}} />
+                                <Image src={MalvinData[2].image} rounded width='70' height='70'  style={{border: '5px solid white', marginRight: 5}} />
+                                <Image src={MalvinData[3].image} rounded width='70' height='70'  style={{border: '5px solid white', marginRight: 5}} />
+                                <Image src={MalvinData[4].image} rounded width='70' height='70'  style={{border: '5px solid white', marginRight: 5}} />
                                 <span className='p-1'><a href="/about">Check more here...</a></span>
                             </div>
                         </div>
