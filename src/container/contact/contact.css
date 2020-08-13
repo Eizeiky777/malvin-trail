@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'ProximaReg';
+    src: url('../../assets/fonts/ProximaNova-Regular.otf');
+}
+
+.header h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.card-push div #Image{
+    width: 200px;
+    height: 300px;
+}
+
+.card-push #touch{
+    margin-top: 60px;
+}
+
+.medsos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

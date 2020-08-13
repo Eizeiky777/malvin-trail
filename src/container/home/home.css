@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'ProximaReg';
+    src: url('../../assets/fonts/ProximaNova-Regular.otf');
+}
+
+.Home{
+    background-image: url('../../assets/img/background-theme.jpg');
+    background-position: 10% 90%; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 100vh;
+    font-family: 'ProximaReg';
+}
+
+.Navbars div span {
+    padding-right: 20px;
+}

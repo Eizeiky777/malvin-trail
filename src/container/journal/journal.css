@@ -1,0 +1,13 @@
+.journal {
+    background-image: url('../../assets/img/theme-journal2.png');
+    background-position: 90% 10%; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 100%;
+    width: 100%;
+}
+
+.journal p {
+    font-weight: 450;
+    color: #ffffff70
+}

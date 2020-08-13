@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'ProximaReg';
+    src: url('../../assets/fonts/ProximaNova-Regular.otf');
+}
+
+.places h2,
+.places h1 {
+    color: #FFFFFF;
+    font-family: 'ProximaReg';
+}
+
+.places h2{
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 10px;
+}
+
+.places h1{
+    font-weight: bolder;
+    letter-spacing: 9px;
+}
